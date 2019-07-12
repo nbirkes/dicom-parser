@@ -1,0 +1,26 @@
+{
+  "name": "dicom-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Birkes <nbirkes@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.5.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1",
+    "ts-node": "^8.0.2",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+  }
+}

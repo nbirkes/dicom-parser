@@ -9,9 +9,8 @@ function main(): void {
 
   let parser = new DicomParser(dicomBuffer);
 
-  console.log(parser.read());
-  console.log(parser.read());
-  console.log(parser.read());
+  let te = parser.getTagElement();
+  console.log(te);
 }
 
 main();
